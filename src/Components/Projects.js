@@ -1,13 +1,11 @@
 import React from 'react'
 
-function About() {
+function Projects() {
     return (
         <div>
-            <h1> OH HI</h1>
+            <h2>YASS</h2>
         </div>
     )
 }
 
-export default About
-
-
+export default Projects
