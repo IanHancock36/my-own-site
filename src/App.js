@@ -1,10 +1,10 @@
 import React from 'react'; 
 import './App.css';
-
+import About from './Components/About'
 function App() {
   return(
   <div>
-    <h1>WELL HAYY </h1>
+   <About />
     </div>
   )
 }
