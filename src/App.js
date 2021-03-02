@@ -1,14 +1,13 @@
-import React from 'react'; 
+import React from 'react';
 import './App.css';
-import About from './Components/About'
-import Projects from './Components/Projects';
+import Navbar from './Components/Navbar';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 function App() {
-  return(
-  <div>
-   <About />
-   <Projects />
-    </div>
-  )
+	return (
+		<BrowserRouter>
+			<Navbar />
+		</BrowserRouter>
+	);
 }
 
 export default App;
